@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.8.0](https://github.com/hanok2/pomatez/compare/v1.7.0...v1.8.0) (2024-08-30)
+
+
+### Features ✨
+
+* add a link to our community discord ([8b2802f](https://github.com/hanok2/pomatez/commit/8b2802f61f7e8004260a27090ad4c768a0a4185f))
+* allow user to input shortcuts in the Shortcut component (requires backend changes) ([#523](https://github.com/hanok2/pomatez/issues/523)) ([47ecece](https://github.com/hanok2/pomatez/commit/47ececea7ae9c929215e064272ef4e57004d615e))
+* hide preview button when the text in not being edited ([#657](https://github.com/hanok2/pomatez/issues/657)) ([b1ed5af](https://github.com/hanok2/pomatez/commit/b1ed5af1ec9012a3b14a762bcc1658d7d9dee0f4))
+* shortcuts for adding new cards with `Enter` & `Ctrl+Enter` ([a73fca7](https://github.com/hanok2/pomatez/commit/a73fca70847836bf7b96bdef54e67023813bda29))
+
+
+### Bug Fixes 🐛
+
+* add word wrapping for card titles ([#637](https://github.com/hanok2/pomatez/issues/637)) ([a63a21e](https://github.com/hanok2/pomatez/commit/a63a21ec3e98f433ad8e18e1425f731cd922fc0d))
+* electron and tauri signing (release 1.6.3 was skipped) ([6442717](https://github.com/hanok2/pomatez/commit/64427172d5721f9384d0d7f5ebf26c8130938812))
+* electron open at login notification showed up on every start up ([654c4db](https://github.com/hanok2/pomatez/commit/654c4dbbeaaa07c69bade454855ab96259d17516))
+* mac signing for electron and tauri ([2c542fe](https://github.com/hanok2/pomatez/commit/2c542feec3f243847dd685913d093f2a48395b00))
+* release issue (didn't release to homebrew or winget) ([fe854b0](https://github.com/hanok2/pomatez/commit/fe854b040446afa169478359413b4937ffdc75ae))
+* **tauri:** avoid setting open at login if already set ([1e836ee](https://github.com/hanok2/pomatez/commit/1e836ee7f8d4670208e276912faf5c7d1fc1ad0f))
+* **tauri:** check autostart status to prevent error with `@tauri-apps/plugin-autostart` on Windows ([de4f8b9](https://github.com/hanok2/pomatez/commit/de4f8b9441b7a8e9d8f1225285e43fd0cb3c8e62))
+* **tauri:** github link opens in app ([09e5ae3](https://github.com/hanok2/pomatez/commit/09e5ae39436ffe95b032df12e6c6752cfa704ab1))
+* **tauri:** high dpi screen scaling ([a9ff671](https://github.com/hanok2/pomatez/commit/a9ff6713054ac00692844c6f264c35ca896a80a7))
+* **tauri:** mac ipc added to connect-src CSP ([b535250](https://github.com/hanok2/pomatez/commit/b535250f5ae720cc75ad50badee381ee7d5a4c47))
+* typo with "stay focused" ([9c5cbd6](https://github.com/hanok2/pomatez/commit/9c5cbd616d4e6a063ae293acaec951da7e6d09f2))
+* **website:** wrong download link for macOS apple silicon installer ([476b232](https://github.com/hanok2/pomatez/commit/476b232615b257e04c9f9065e435b26860b2995a))
+* winget release fix ([8759751](https://github.com/hanok2/pomatez/commit/875975112d282572f08d848047fe577a12db0401))
+
+
+### Reverts ⏪️
+
+* remove google analytics in the app ([#610](https://github.com/hanok2/pomatez/issues/610)) ([95dae58](https://github.com/hanok2/pomatez/commit/95dae58e67f449a161dbd5e86daffe447ef3883d)), closes [#609](https://github.com/hanok2/pomatez/issues/609)
+
 ## [1.7.0](https://github.com/zidoro/pomatez/compare/v1.6.4...v1.7.0) (2024-07-25)
 
 
